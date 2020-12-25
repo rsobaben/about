@@ -1,0 +1,62 @@
+body{
+    background-color: #f7f7f7;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header{
+    background-color: #00923f;
+}
+main{
+    padding: 2rem 0;
+    flex: 1;
+}
+footer{
+    padding: 1rem 0;
+    background-color: #6699fe;
+    color: #fff;
+}
+
+h3{
+    font-size:1.3em;
+    font-weight: normal;
+    color: #444;
+}
+ h3>small{
+    color: #555;
+    font-weight: lighter;
+ }
+
+
+/*  */
+.brand-nites{
+    font-family: 'Rock Salt', cursiva;
+    color: #efefef !important;
+    text-shadow: 1px 1px #ffff00;
+}
+
+.copy-nites{
+    font-size: .75rem;
+    text-align: center;
+    border-top: solid 1px;
+    padding: 2rem 0;
+}
+
+.page{
+    background-color: #fff;
+    box-shadow: -3px 3px 6px 2px rgba(0,0,0, .5);
+    padding: 3rem 1.5rem;
+}
+
+/* jobs info */
+.as{
+    display: flex;
+    justify-content: space-between;
+}
+.when{
+    display: flex;
+    font-weight: normal;
+    font-size: .9rem;
+    color:#555;
+}
